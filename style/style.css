@@ -1,0 +1,31 @@
+body {
+    overflow-x: hidden; 
+}
+
+/* header start */
+header {
+    background-image: url("../image/header_image.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header_contain{
+    padding-top: 150px;
+}
+.header_contain samp {
+    font-size: 28px;
+    color: rgb(140, 141, 146);
+}
+.trynow {
+    
+    background-color: rgb(212, 35, 35);
+    font-size: 20px !important;
+    padding: 8px;
+    width: 130px;
+    color: white !important;
+    height: 40px;
+}
+.header_contain a:hover {
+    text-decoration: none;
+}
+/* header end */
