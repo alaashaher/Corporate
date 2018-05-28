@@ -1,31 +1,57 @@
 body {
     overflow-x: hidden; 
 }
-
+.red {
+    color: rgb(254, 108, 108);
+}
 /* header start */
 header {
-    background-image: url("../image/header_image.jpg");
+    background-image: url("../image/header_image.png");
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .header_contain{
-    padding-top: 150px;
+    padding-top: 100px;
 }
 .header_contain samp {
     font-size: 28px;
     color: rgb(140, 141, 146);
 }
+.header_contain div {
+    margin-top: 30px;
+}
 .trynow {
-    
     background-color: rgb(212, 35, 35);
+    border-color: rgb(212, 35, 35);
     font-size: 20px !important;
-    padding: 8px;
     width: 130px;
     color: white !important;
     height: 40px;
 }
-.header_contain a:hover {
-    text-decoration: none;
+.trynow:hover {
+    cursor: pointer;
+    background-color: rgb(63, 9, 9);
+    border-color: rgb(63, 9, 9);
 }
 /* header end */
+
+/* New Desgin start */
+.new_desgin_left {
+    height: 500px;
+}
+.new_desgin_image {
+    height: 500px;
+    width: 550px;
+}
+.new_desgin_left_body {
+    margin-left: 15%;
+    margin-top: 80px;
+}
+.section_des {
+    font-size: 30px;
+}
+.section_descr {
+    margin-top: 20px;
+}
+/* New Desgin end */
