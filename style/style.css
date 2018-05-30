@@ -50,8 +50,21 @@ header {
 }
 .section_des {
     font-size: 30px;
+    color: black;
 }
 .section_descr {
     margin-top: 20px;
 }
 /* New Desgin end */
+
+/* New Feautre start */ 
+.new_feautre_body_data {
+    margin-top: 50px;
+    color: black;
+    padding-bottom: 180px;
+}
+.icon_descr {
+    color: rgb(97, 96, 96);
+    font-size: 12px;
+}
+/* New Feautre end */
