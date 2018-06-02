@@ -68,3 +68,24 @@ header {
     font-size: 12px;
 }
 /* New Feautre end */
+
+/* New Desgin Resbonsive start */
+#new_desgin_res {
+    width: 100%;
+}
+.new_desgin_back_ground {
+    width: 100% !important;
+}
+.new_desgin_caption_image {
+    float: left;
+    margin-left: -80px;
+    padding-right: 50px;
+}
+.new_feautre_res_body {
+    text-align: left;
+    margin-top: 50px;
+}
+.new_feautre_res_body .section_descr {
+    color: rgb(90, 88, 88);
+}
+/* New Desgin Resbonsive end */
