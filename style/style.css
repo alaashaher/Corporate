@@ -112,3 +112,16 @@ header {
 .client_image div img {
     margin-left: 50px;
 }
+/* client end */
+
+/* new feautre start */
+.new_feautre_second .section_title {
+    font-size: 20px;
+}
+.new_feautre_second .section_des {
+    font-size: 25px;
+}
+.new_feautre_second .section_desc {
+    color: rgb(80, 79, 79);
+    font-size: 15px;
+}
