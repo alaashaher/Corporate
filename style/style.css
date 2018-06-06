@@ -4,6 +4,9 @@ body {
 .red {
     color: rgb(254, 108, 108);
 }
+.underline {
+    text-decoration: underline;
+}
 /* header start */
 header {
     background-image: url("../image/header_image.png");
@@ -117,6 +120,7 @@ header {
 /* new feautre start */
 .new_feautre_second .section_title {
     font-size: 20px;
+    margin-top: 50px;
 }
 .new_feautre_second .section_des {
     font-size: 25px;
@@ -124,4 +128,30 @@ header {
 .new_feautre_second .section_desc {
     color: rgb(80, 79, 79);
     font-size: 15px;
+}
+/* new feautre end */
+
+/* try start */ 
+#try .section_des {
+    color: white;
+}
+input {
+    padding-left: 20px;
+    border: 1px solid white;
+    background-color: rgb(28, 28, 60);
+    color: white;
+}
+.trynow_ {
+    padding-right: 20px;
+}
+.trynow_:hover {
+    cursor: pointer;
+}
+.try_body {
+    padding-bottom: 70px;
+    padding-top: 100px;
+}
+.free {
+    margin-left: 40%;
+    padding-bottom: 20px;
 }
