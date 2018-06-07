@@ -7,6 +7,9 @@ body {
 .underline {
     text-decoration: underline;
 }
+.carousel-inner {
+    overflow: visible;
+}
 /* header start */
 header {
     background-image: url("../image/header_image.png");
