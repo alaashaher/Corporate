@@ -28,9 +28,15 @@
     .client-descripation {
         font-size: 10px;
     }
+    .section_desc {
+        font-size: 10px;
+    }
+    #new_feautre_second .carousel-caption {
+        height: 280px;
+    }
     .client_image div img {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
     }
     .client_name {
         padding-top: 0px;
@@ -38,9 +44,10 @@
     }
     .client_image {
        padding: 0px;
+       padding-bottom: 10px;
     }
     .client_body {
-        height: 300px;;
+        height: 270px;
     }
     .client_body_data div {
         margin-left: 20px;
@@ -58,11 +65,11 @@
        padding-top: 0px;
     }
     #client {
-        height: 400px;
+        height: 450px;
         background-image: url("../image/client.png");
     }
     #try {
-        height: 400px;
+        height: 450px;
         background-image: url("../image/try.png");
     }
     #try .carousel-caption {
@@ -81,13 +88,16 @@
     }
     .footer_body {
         margin-top: 150px;
-        height: 130px;
+        height: 110px;
     }
     .footer_cloumn_title {
         font-size: 18px;
     }
     .footer_cloumn_dec {
         font-size: 10px;
+    }
+    .footer_icon a{
+        display: block;
     }
 }
 @media (min-width:768px) and (max-width:890px){ 
