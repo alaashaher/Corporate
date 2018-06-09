@@ -1,6 +1,13 @@
 body {
     overflow-x: hidden; 
 }
+img:hover {
+    transform: rotateY( 180deg );
+}
+.section_title:hover {
+    font-size: 25px;
+    cursor: pointer;
+}
 .red {
     color: rgb(254, 108, 108);
 }
