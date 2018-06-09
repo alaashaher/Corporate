@@ -2,7 +2,11 @@ body {
     overflow-x: hidden; 
 }
 img:hover {
-    transform: rotateY( 180deg );
+    transform: rotateY( 360deg );
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
 }
 .section_title:hover {
     font-size: 25px;
